@@ -1,0 +1,19 @@
+Package: canpair
+Type: Package
+Title: Canada Pair Project
+Version: 0.1.0
+Author: Victoria Dale
+Maintainer: Victoria Dale <vdale2@uwo.ca>
+Description: This package was created to aid in the data processing, analysis and 
+    data visualization of the Canada Pair Project; a longitudinal study conducted
+    at the University of Western Ontario
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    psych,
+    data.table,
+    lavaan
+RoxygenNote: 7.1.1
+
