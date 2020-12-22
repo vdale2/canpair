@@ -22,10 +22,10 @@ library(lavaan)
 #' @return four variables in which the data is extracted from the week before the current date
 #' @export
 #'
-#' @examples last_week_col(mydata, attachment, attraction, mood, investment)
+#' @examples lag.variables(mydata, attachment, attraction, mood, investment)
 
 
-last_week_col <- function(df, x, y, z, a) {
+lag.variables <- function(df, x, y, z, a) {
   x1 <- lag(df$x)
   y1 <- lag(df$y)
   z1 <- lag(df$z)
