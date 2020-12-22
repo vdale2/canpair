@@ -37,6 +37,11 @@
   names(df)[names(df)==names(df[ncol(df)])] <- "Attachment Avoidance"
 
   return(df)
-  print("attachment anxiety scale test-retest reliability: r = .82 ")
-  print("attachment avoidance scale test-retest relaibility: r = .89")
+  itemcorr <- varnames %>%
+    colMeans(na.rm = TRUE)
+  print(itemcorr)
+  cronbachs <- psych::alpha(varnames)
+  print(cronbachs)
+
+
 }
