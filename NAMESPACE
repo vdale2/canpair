@@ -3,6 +3,6 @@
 export(attachment_tool)
 export(cross_lagged_panel_model)
 export(investments.so.far)
-export(last_week_col)
+export(lag.variables)
 export(week_counter)
 expoty(weekset.function)
